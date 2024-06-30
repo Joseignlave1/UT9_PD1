@@ -1,0 +1,33 @@
+UT9_PD1:
+
+¿Cómo se genera un vector monótonamente ascendente?
+
+1)El vector monótonamente ascendiente se genera mediante el método generarDatosAscendentes, este método crea un array de tamaño "TAMANIO_MAX" y a cada elemento del array le asigna un valor igual al índice actual, creando así un array que va desde 0 hasta TAMANIO_MAX -1
+
+
+ ¿Cómo se genera un vector monótonamente descendente?
+
+2)El vector monótamente descendente se genera mediante el método generarDatosDescendientes, este método crea un array de tamaño "TANANIO_MAX" y le asigna a cada posición de array un valor igual a "TAMANIO_MAX - I", creando así un array que va desde TAMANIO_MAX hasta 1
+
+
+
+¿Cómo se genera un vector con valores aleatorios? ¿Pueden existir claves repetidas? ¿Cuál es el orden del tiempo de ejecución de este método?
+
+3)El vector con valores aleatorios se genera mediante el método generarDatosAleatorios, en el qué genera valores aleatorios usando la clase Random de Java
+
+No pueden existir claves repetidas porqué se utiliza el array datosUtilizados para asegurarse de que cada posición reciba un valor único.
+
+
+
+Orden de tiempo de ejecución: O(n) donde n es TAMANIO_MAX
+
+4) ¿Cuántos elementos contiene el vector de datos generado? ¿Cómo se puede modificar esta clase para que la cantidad de elementos del vector sea parametrizable? 
+
+El vector de datos generados contiene "TAMAÑO_MAX" elementos, para hacer que la cantidad de elementos sea parametrizable, podemos modificar los métodos para aceptar un parámetro que defina el tamaño del vector.
+
+
+5. ¿Cómo podemos verificar que un conjunto está ordenado? ¿Cuál sería el orden del tiempo de ejecución de un algoritmo que lo haga?
+
+Para verificar que un conjunto está ordenado, podemos recorrer el array comparando cada elemento con el siguiente para asegurarnos de que está en orden ascendente(o descendiente).
+
+Orden de tiempo de ejecución: O(n), donde n es el número de elementos del array.
